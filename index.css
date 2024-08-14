@@ -1,0 +1,99 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+   /* background-color: aquamarine; */
+   margin: 0px 40px 0px 40px;
+   align-items: center;
+}
+
+ .navlink a{
+    text-decoration: none;
+    /* background-color: azure; */
+    margin-left: 50px;
+}
+.iconmenu img{
+    margin-right: 20px;
+    /* background-color: azure; */
+}
+
+
+/* herosection */
+.herosection{
+    background-image: url("./assets/scandinavian-interior-mockup-wall-decal-background\ 1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px;
+
+}
+
+
+.page{
+    border: 1px solid transparent ;
+    width: 410px;
+    height: 40vh;
+    background-color: #FFF3E3;
+    border-radius: 5px;
+    margin-left: 500px;
+    
+}
+
+/* wignet */
+.subwignet{
+    justify-content: center;
+    /* border: 1px solid; */
+    margin-top:70px;
+    
+}
+.subheader{
+    margin-left: 500px;
+    /* border: 1px solid; */
+}
+.setup{
+    display: flex;
+}
+.setup div img{
+    width: 350px;
+    margin: 20px;
+    /* border-radius: 10px; */
+}
+.setup div h3{
+    margin-left: 150px;
+    /* border: 1px solid; */
+}
+.furniture{
+    margin-left: 80px;
+}
+
+/* cards */
+.cards{
+    display: flex;
+    /* border: 1px solid; */
+    flex-wrap: wrap;
+    
+    
+}
+.card2{
+    display: flex;
+    border: 1px solid;
+    justify-self: space-between;
+    flex-wrap: wrap;
+    padding: 100px;
+    row-gap: 40px;
+}
+.card{
+    /* border: 1px solid ; */
+    width: 23%;
+    border-radius: 30px;
+    
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+/* wignet */
+.products{
+    display: flex;
+}
